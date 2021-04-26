@@ -49,7 +49,7 @@ func (ConsensusType_State) EnumDescriptor() ([]byte, []int) {
 }
 
 type ConsensusType struct {
-	// The consensus type: "solo", "kafka", "etcdraft", or "mirbft".
+	// The consensus type: "solo", "kafka", "etcdraft", or "hlmirbft".
 	Type string `protobuf:"bytes,1,opt,name=type,proto3" json:"type,omitempty"`
 	// Opaque metadata, dependent on the consensus type.
 	Metadata []byte `protobuf:"bytes,2,opt,name=metadata,proto3" json:"metadata,omitempty"`
