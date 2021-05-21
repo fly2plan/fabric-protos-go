@@ -1,4 +1,4 @@
-module github.com/harrymknight/fabric-protos-go
+module github.com/fly2plan/fabric-protos-go
 
 go 1.12
 
