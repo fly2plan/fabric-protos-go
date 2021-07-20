@@ -74,7 +74,7 @@ func init() {
 	proto.RegisterType((*SnapData)(nil), "hlmirbft.SnapData")
 }
 
-func init() { proto.RegisterFile("snap.proto", fileDescriptor_f2e3c045ebf84d00) }
+func init() { proto.RegisterFile("hlmirbft_snap.proto", fileDescriptor_f2e3c045ebf84d00) }
 
 var fileDescriptor_f2e3c045ebf84d00 = []byte{
 	// 190 bytes of a gzipped FileDescriptorProto
